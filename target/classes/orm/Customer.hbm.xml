@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+    <class name="com.pepper.exam.model.Customer" table="customer" catalog="pepperdb">
+    	<id name="id_customer" type="java.lang.Integer">
+    		<column name="id_customer"></column>
+    		<generator class="increment"></generator>
+    	</id>
+        <property name="lastname" type="string">
+            <column name="lastname" length="60" />
+        </property>
+        <property name="firstname" type="string">
+            <column name="firstname" length="60" />
+        </property>
+        <property name="address" type="string">
+            <column name="address" length="60" />
+        </property>
+    </class>
+</hibernate-mapping>
