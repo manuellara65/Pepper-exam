@@ -17,3 +17,5 @@ Customer Exam for Pepper
 [domain]/exam/customer/update?lastname=[value]&firstname=[value]&address=[value]&id_customer=[value]
 
 To support the future resources such as order and products you may change the "customer" to "order/product" in the rest api.
+
+The project will run on STS IDE
